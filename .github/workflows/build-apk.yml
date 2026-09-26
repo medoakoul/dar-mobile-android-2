@@ -35,7 +35,7 @@ jobs:
       - name: Prepare project
         run: |
           mkdir -p android-project
-          unzip -q dar-mobile-android-project-v0.8-real-users.zip -d android-project
+          unzip -q dar-mobile-android-project-v0.8.1-splash-final.zip -d android-project
 
       - name: Build debug APK
         working-directory: android-project
