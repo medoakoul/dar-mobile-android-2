@@ -35,7 +35,7 @@ jobs:
       - name: Prepare project
         run: |
           mkdir -p android-project
-          unzip -q dar-mobile-android-project-v0.9.2-rbac-visible.zip -d android-project
+          unzip -q dar-mobile-android-project-v1.0.0-supabase.zip -d android-project
 
       - name: Build debug APK
         working-directory: android-project
